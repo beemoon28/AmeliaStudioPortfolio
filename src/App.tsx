@@ -1,11 +1,11 @@
 import { FormEvent, useEffect, useState } from 'react'
 
-const encarniImage = '/assets/encarni-home.png'
-const labialesImage = '/assets/labiales-home.jpg'
-const solenImage = '/assets/solen.jpg'
-const evelinImage = '/assets/evelin.png'
-const beatrizImage = '/assets/beatriz.png'
-const arletteImage = '/assets/arlette.png'
+const encarniImage = '/images/encarni.jpg'
+const labialesImage = '/images/labiales.jpg'
+const solenImage = '/images/solen.jpg'
+const evelinImage = '/images/evelin.png'
+const beatrizImage = '/images/beatriz.png'
+const arletteImage = '/images/arlette.png'
 
 type Page = 'home' | 'work' | 'project' | 'services' | 'studio' | 'contact'
 
