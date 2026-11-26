@@ -1,12 +1,13 @@
 import { FormEvent, useEffect, useState } from 'react'
-import encarniImage from './assets/encarni.png'
-import labialesImage from './assets/labiales.png'
-import encarniHomeImage from '@/imports/encarni-editor.png'
-import labialesHomeImage from '@/imports/labiales-editor.jpg'
-import solenImage from '@/imports/solen.jpg'
-import evelinImage from '@/imports/EVELEYN.png'
-import beatrizImage from '@/imports/profile_picture-3.png'
-import arletteImage from '@/imports/ARLETTE_FOTO-3.png'
+
+const encarniImage = '/assets/encarni.png'
+const labialesImage = '/assets/labiales.png'
+const encarniHomeImage = '/assets/encarni-home.png'
+const labialesHomeImage = '/assets/labiales-home.jpg'
+const solenImage = '/assets/solen.jpg'
+const evelinImage = '/assets/evelin.png'
+const beatrizImage = '/assets/beatriz.png'
+const arletteImage = '/assets/arlette.png'
 
 type Page = 'home' | 'work' | 'project' | 'services' | 'studio' | 'contact'
 
@@ -209,7 +210,7 @@ const caseStudies = [
   {
     title: 'ENCARNI',
     category: 'Ilustración editorial',
-    image: encarniImage,
+    image: encarniHomeImage,
     problem: 'Traducir una historia íntima y vital en un retrato contemporáneo, sin perder su calidez.',
     process: 'Trazos manuales, capas de color y una paleta terracota construyeron una imagen táctil y cercana.',
     result: 'Una pieza editorial con carácter propio, capaz de sostener la identidad visual de la publicación.',
@@ -217,7 +218,7 @@ const caseStudies = [
   {
     title: 'LABIALES',
     category: 'Fotografía & dirección de arte',
-    image: labialesImage,
+    image: labialesHomeImage,
     problem: 'Presentar una colección de color desde una mirada artística, sensual y alejada del catálogo.',
     process: 'Creamos composiciones escultóricas con pigmento, luz lateral y texturas de alto contraste.',
     result: 'Una campaña magnética y versátil que elevó la percepción del producto en digital y editorial.',
