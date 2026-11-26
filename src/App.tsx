@@ -1,9 +1,7 @@
 import { FormEvent, useEffect, useState } from 'react'
 
-const encarniImage = '/assets/encarni.png'
-const labialesImage = '/assets/labiales.png'
-const encarniHomeImage = '/assets/encarni-home.png'
-const labialesHomeImage = '/assets/labiales-home.jpg'
+const encarniImage = '/assets/encarni-home.png'
+const labialesImage = '/assets/labiales-home.jpg'
 const solenImage = '/assets/solen.jpg'
 const evelinImage = '/assets/evelin.png'
 const beatrizImage = '/assets/beatriz.png'
@@ -136,8 +134,8 @@ function HomePage() {
             <h2>Proyectos destacados</h2>
           </div>
           <div className="project-grid">
-            <ProjectCard title="ENCARNI" image={encarniHomeImage} />
-            <ProjectCard title="LABIALES" image={labialesHomeImage} />
+            <ProjectCard title="ENCARNI" image={encarniImage} />
+            <ProjectCard title="LABIALES" image={labialesImage} />
             <ProjectCard title="SOLEN" kind="solen" />
           </div>
         </section>
@@ -210,7 +208,7 @@ const caseStudies = [
   {
     title: 'ENCARNI',
     category: 'Ilustración editorial',
-    image: encarniHomeImage,
+    image: encarniImage,
     problem: 'Traducir una historia íntima y vital en un retrato contemporáneo, sin perder su calidez.',
     process: 'Trazos manuales, capas de color y una paleta terracota construyeron una imagen táctil y cercana.',
     result: 'Una pieza editorial con carácter propio, capaz de sostener la identidad visual de la publicación.',
@@ -218,7 +216,7 @@ const caseStudies = [
   {
     title: 'LABIALES',
     category: 'Fotografía & dirección de arte',
-    image: labialesHomeImage,
+    image: labialesImage,
     problem: 'Presentar una colección de color desde una mirada artística, sensual y alejada del catálogo.',
     process: 'Creamos composiciones escultóricas con pigmento, luz lateral y texturas de alto contraste.',
     result: 'Una campaña magnética y versátil que elevó la percepción del producto en digital y editorial.',
