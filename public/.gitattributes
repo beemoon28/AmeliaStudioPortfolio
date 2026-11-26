@@ -1,2 +1,5 @@
 # AgentPlat packages this default favicon directly from source without LFS hydration.
 favicon.png -filter -diff -merge -text
+
+# Netlify serves these files directly; commit their real binary contents, never LFS pointers.
+assets/** -filter -diff -merge -text
