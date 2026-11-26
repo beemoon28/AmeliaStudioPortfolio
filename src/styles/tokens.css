@@ -1,0 +1,37 @@
+:root {
+  /* Colección 1 — official color tokens */
+  --color-background: #e1c1b4;
+  --color-text-subtitles: #856268;
+  --color-primary: #bf7289;
+  --color-secondary: #d89a9f;
+  --color-accent: #aeb4aa;
+  --color-disabled-button: #ffffff;
+  --color-default-button: #f9fff5;
+  --color-text: #0a0a0a;
+
+  /* Typography-styles — official text-style foundations */
+  --font-display-family: 'Abril Fatface', Georgia, serif;
+  --font-display-weight: 400;
+  --font-display-size: 56px;
+  --font-display-letter-spacing: -0.05em;
+
+  --font-h1-family: 'DM Sans', Arial, sans-serif;
+  --font-h1-weight: 300;
+  --font-h1-size: 40px;
+  --font-h1-letter-spacing: -0.05em;
+
+  --font-h2-family: 'DM Sans', Arial, sans-serif;
+  --font-h2-weight: 400;
+  --font-h2-size: 28px;
+  --font-h2-letter-spacing: 0;
+
+  --font-body-family: 'DM Sans', Arial, sans-serif;
+  --font-body-weight: 400;
+  --font-body-size: 16px;
+  --font-body-letter-spacing: 0;
+
+  --font-caption-family: 'DM Sans', Arial, sans-serif;
+  --font-caption-weight: 600;
+  --font-caption-size: 12px;
+  --font-caption-letter-spacing: 0;
+}

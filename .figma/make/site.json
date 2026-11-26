@@ -1,0 +1,10 @@
+{
+  "description": "Explore Amelia Studio’s creative portfolio, branding, photography, and illustration services, meet the design team, and get in touch about a project.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
